@@ -28,4 +28,8 @@ public class ItemToPurchase {
 	public void setQuantity(int quantity) {
 		this.itemQuantity = quantity;
 	}
+	
+	public int cost() {
+		return itemPrice * itemQuantity;
+	}
 }
