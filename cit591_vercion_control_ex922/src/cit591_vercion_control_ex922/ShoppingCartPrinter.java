@@ -1,6 +1,8 @@
 package cit591_vercion_control_ex922;
 import java.util.*;
 public class ShoppingCartPrinter {
+    
+    String name;
 
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
@@ -23,6 +25,7 @@ public class ShoppingCartPrinter {
 		
 		System.out.println("Total cost: $" + totalCost);
 		scnr.close();
+		
 	}
 
 }
