@@ -2,7 +2,7 @@ package cit591_vercion_control_ex922;
 
 public class ItemToPurchase {
 	String itemName;
-	int price;
+	int itemPrice;
 	int itemQuantity;
 	
 	String getName() {
@@ -10,7 +10,7 @@ public class ItemToPurchase {
 	}
 	
 	int getPrice() {
-		return price;
+		return itemPrice;
 	}
 	
 	int getQuantity() {
@@ -22,7 +22,7 @@ public class ItemToPurchase {
 	}
 	
 	public void setPrice(int price) {
-		this.price = price;
+		this.itemPrice = price;
 	}
 	
 	public void setQuantity(int quantity) {
@@ -30,6 +30,6 @@ public class ItemToPurchase {
 	}
 	
 	public int cost() {
-		return price * itemQuantity;
+		return itemPrice * itemQuantity;
 	}
 }
