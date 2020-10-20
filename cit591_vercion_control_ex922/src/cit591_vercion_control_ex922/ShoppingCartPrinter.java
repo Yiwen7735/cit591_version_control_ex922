@@ -26,6 +26,8 @@ public class ShoppingCartPrinter {
 		System.out.println("Total cost: $" + totalCost);
 		scnr.close();
 		
+		System.out.println("Yiwen modified and pushed!");
+		
 	}
 
 }
