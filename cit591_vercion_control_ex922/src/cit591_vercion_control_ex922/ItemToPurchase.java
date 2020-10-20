@@ -4,6 +4,7 @@ public class ItemToPurchase {
 	String itemName;
 	int itemPrice;
 	int itemQuantity;
+	int totalCost;
 	
 	String getName() {
 		return itemName;
@@ -32,4 +33,5 @@ public class ItemToPurchase {
 	public int cost() {
 		return itemPrice * itemQuantity;
 	}
+	
 }
